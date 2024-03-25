@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -23,9 +24,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300">
+            <Link to="/products" className="text-white hover:text-gray-300">
               Shop All
-            </a>
+            </Link>
           </li>
         </ul>
         <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Living from '../images/livingroom.png';
-import Hover from '../components/HoverArrowButton';
+import Hover from './HoverArrow';
 
 const LivingRoom = () => {
     return (
